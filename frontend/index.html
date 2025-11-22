@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="upper_half.css">
+    <link rel="stylesheet" href="lower_half.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="theme-switcher.css">
+
+</head>
+<body>
+
+<div id="scroll-progress" aria-hidden="true"></div>
+
+<div class="mobile-menu-overlay" id="mobile-menu-overlay"></div>
+
+<div id="home" class="project-container" data-section="home">
+
+    <div class="navbar-container" data-reveal="fade-up">
+        <h1 class="header-name">Erjan <span>Amantaev</span></h1>
+        <button class="theme-switch-button" id="theme-switch-button">Dark</button>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-navigation">
+            <span></span><span></span><span></span>
+        </button>
+        <div class="navbar-list" id="primary-navigation" role="navigation">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#work">Work</a>
+            <a href="#contact-me">Contact</a>
+        </div>
+        <div>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="Visit GitHub profile">
+                <img src="media/akar-icons_github-fill.svg" alt="GitHub icon" class="github-icon">
+            </a>
+        </div>
+    </div>
+
+    <div class="greeting-container" data-reveal="fade-up">
+        <div class="greeting-text">
+            <h2>Hello, I'm Erjan</h2>
+            <h1>Python Developer</h1>
+            <a href="#contact-me" class="contact-link">Contact Me</a>
+        </div>
+        <div class="greeting-image">
+            <img src="media/Изображение WhatsApp 2025-11-22 в 11.53.49_b3a062d0.jpg" alt="developer photo">
+        </div>
+    </div>
+
+
+    <div class="about-container" id="about" data-section="about" data-reveal="fade-up">
+        <h2 class="about-title">about</h2><hr>
+
+        <p class="about-text">
+            I'm a passionate Python developer who loves building web applications and solving real-world problems.
+            I specialize in backend development with Django & Django REST Framework, and I’m constantly learning
+            new technologies to expand my skillset.
+        </p>
+        <p class="about-text">
+            When I’m not coding, you’ll probably find me reading, playing chess, or training in calisthenics and boxing.
+            I believe in continuous self-improvement both in tech and in life.
+        </p>
+    </div>
+
+    <div class="skills-container" data-reveal="fade-up">
+        <h2 class="skills-title">Skills</h2><hr>
+        <div class="skills-grid">
+            <div class="skill-item">Redis</div>
+            <div class="skill-item">HTML</div>
+            <div class="skill-item">CSS</div>
+            <div class="skill-item">JavaScript</div>
+            <div class="skill-item">PostgreSQL</div>
+            <div class="skill-item">Celery</div>
+            <div class="skill-item">Celery Beat</div>
+            <div class="skill-item">Django</div>
+            <div class="skill-item">Django REST Framework</div>
+            <div class="skill-item">Agile</div>
+            <div class="skill-item">Scrum</div>
+            <div class="skill-item">Docker</div>
+            <div class="skill-item">Docker Compose</div>
+            <div class="skill-item">GitHub</div>
+            <div class="skill-item">REST API</div>
+            <div class="skill-item">WebSockets</div>
+        </div>
+    </div>
+
+
+    <div class="work-container" id="work" data-section="work" data-reveal="fade-up">
+        <h2 class="work-title">Work</h2><hr>
+
+        <p class="work-text">
+            I've built a lot of projects; starting from Backend REST API's till websites visual side. I'm fullstack developer
+            so I feel free doing whole project by myself. Also I can build Django-tempalate projects where I just use
+            the frontend template you like(you can provide it to me).
+        </p>
+
+        <div class="work-images">
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="media/img.png" alt="Clothes Store project">
+                </div>
+                <div class="project-info">
+                    <div class="project-header">
+                        <div class="project-title">Clothes Store</div>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">DRF</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">Live Demo →</a>
+                        <a href="#" class="project-link-secondary" target="_blank" rel="noopener noreferrer">View Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="media/img_1.png" alt="Estate Shopping project">
+                </div>
+                <div class="project-info">
+                    <div class="project-header">
+                        <div class="project-title">Estate Shopping</div>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">Bootstrap</span>
+                            <span class="tech-tag">DRF</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">Live Demo →</a>
+                        <a href="#" class="project-link-secondary" target="_blank" rel="noopener noreferrer">View Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="contact-me-container" id="contact-me" data-section="contact-me" data-reveal="fade-up">
+        <h2 class="contact-me-title">Contact Me</h2><hr>
+
+        <p class="contact-me-text">
+            I would love to hear about your project and how I can help. Please fill in the form
+            and I'll get back to you as soon as possible.
+        </p>
+
+        <div class="form-container">
+            <div class="form-field">
+                <input type="text" id="name" class="form-input" data-validate="text" placeholder="" required>
+                <label for="name" class="form-label">Name</label>
+            </div>
+            <div class="form-field">
+                <input type="email" id="email" class="form-input" data-validate="email" placeholder="" required>
+                <label for="email" class="form-label">Email</label>
+            </div>
+            <div class="form-field">
+                <textarea id="message" class="form-input form-textarea" data-validate="message" placeholder="" required></textarea>
+                <label for="message" class="form-label">Message</label>
+            </div>
+            <button class="send-button">Send Message</button>
+
+        </div>
+
+        <div class="toast-stack" id="toast-stack" aria-live="polite" aria-atomic="true"></div>
+
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Erjan Amantaev. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#work">Work</a>
+                <a href="#contact-me">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+</div>
+
+<button class="scroll-top" type="button" aria-label="Scroll back to top">▲</button>
+
+
+<script src="index.js"></script>
+</body>
+</html>
